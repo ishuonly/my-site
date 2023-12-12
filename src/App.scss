@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poiret+One&display=swap');
+
+$font1: 'Josefin Sans', sans-serif;
+$font2: 'Amatic SC', sans-serif;
+$font3: 'Poiret One', sans-serif;
+$color1: #B16150;
+$color2: #5CC8D7;
+$color3: #f9e9d5;
+
+
+// Home
+
+.App{
+  margin: 0;
+  padding: 0;
+}
+
+.Home{
+  display: flex;
+  position: relative;
+}
+
+.home-1{
+  width: 67%;
+  height: 100vh;
+  background-color: $color1;
+  display: inline-block;
+}
+
+.home-2{
+  width: 33%;
+  height: 100vh;
+  background-color: $color2;
+  display: inline-block;
+}
+
+.name{
+  font-family: $font1;
+  color: $color2;
+  font-size: 12vh;
+  font-weight: 600;
+  margin-left: 20%;
+  margin-top: 12%;
+  margin-bottom: 2%;
+}
+
+.sub-name{
+  font-family: $font2;
+  font-size: 5vh;
+  color: $color3;
+  margin-left: 20%;
+  padding-right: 20%;
+}
+
+.me{
+  width: 28vw;
+}
+
+.me-img{
+  position: absolute;
+  transform: translate(50%, 30%);
+  left: 40%;
+}
+
+// Header 1
+
+.header-1{
+  display: inline-block;
+  width: 100%;
+  padding-top:0%;
+  margin-left: 3%;
+}
+
+.column1{
+  color: $color3;
+  text-decoration: none;
+  display: inline-block;
+  font-family: $font3;
+  font-weight: bold;
+  font-size: 3vh;
+  padding: 0;
+  margin-right: 5%;
+  width: fit-content;
+}
+
+.button-h{
+  align-items: center;
+  vertical-align: middle;
+  padding: 0%;
+  margin-right: 5%;
+  border: none;
+  background: none;
+  width: fit-content;
+  text-align: center;
+}
+
+.column1:hover{
+  background: $color3;
+  cursor: pointer;
+  color: #B16150;
+  width: 8vw;
+  padding: 3% 0;
+}
+
+.logo-w{
+  width: 15vh;
+  padding: 0;
+  display: inline-block;
+}
+
+.logo-w:hover{
+  cursor: pointer;
+}
+
+.column2{
+  color: $color1;
+  text-decoration: none;
+  display: inline-block;
+  font-family: $font3;
+  font-weight: bold;
+  font-size: 3vh;
+  padding: 0;
+  margin-right: 5%;
+  width: fit-content;
+}
+
+.column2:hover{
+  background: none;
+  cursor: pointer;
+  color: #B16150;
+  width: 8vw;
+  padding: 3% 0;
+}

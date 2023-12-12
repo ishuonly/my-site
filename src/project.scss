@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poiret+One&display=swap');
+
+$font1: 'Josefin Sans', sans-serif;
+$font2: 'Amatic SC', sans-serif;
+$font3: 'Poiret One', sans-serif;
+$color1: #B16150;
+$color2: #5CC8D7;
+$color3: #f9e9d5;
+
+.App{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: auto;
+}
+
+
+.Projects{
+    width: 100%;
+    background: $color3;
+    position: relative;
+    padding-bottom: 5%;
+}
+
+.Decks{
+    width: 100%;
+    background: $color2;
+    position: relative;
+    padding-bottom: 5%;
+}
+
+.Art{
+    width: 100%;
+    background: $color1;
+    position: relative;
+    padding-bottom: 5%;
+}
+
+.page-head{
+    margin-top: 5%;
+    text-align: center;
+    font-family: $font2;
+    font-weight: bold;
+    color: $color1;
+    font-size: 8vh;
+}
+
+.cards{
+    text-align: center;
+    display: flex;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.card-1{
+    margin-right: 5%;
+    padding: 1%;
+}
