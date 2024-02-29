@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/my-site/static/css/main.7cbc1fd9.css",
+    "main.js": "/my-site/static/js/main.f5c71162.js",
+    "static/js/787.7da95b79.chunk.js": "/my-site/static/js/787.7da95b79.chunk.js",
+    "static/media/vegex.jpg": "/my-site/static/media/vegex.be34bccc272b99ac13ab.jpg",
+    "static/media/me.png": "/my-site/static/media/me.00adce306e059d00632c.png",
+    "static/media/wastenot.jpg": "/my-site/static/media/wastenot.87c0cf4281e0827de6be.jpg",
+    "static/media/slm.jpg": "/my-site/static/media/slm.b2a4c0f434830016df11.jpg",
+    "static/media/Resume_IkshitaAgarwal.pdf": "/my-site/static/media/Resume_IkshitaAgarwal.3dd7ca10c27881c8b57a.pdf",
+    "static/media/game.jpg": "/my-site/static/media/game.8c35b55153c6f5d3cad3.jpg",
+    "static/media/logo-black.svg": "/my-site/static/media/logo-black.06170f2f53c8a31f962724e6938ae419.svg",
+    "static/media/logo-white.svg": "/my-site/static/media/logo-white.55e9b410a9b3d7d18a1c223f889dadd6.svg",
+    "index.html": "/my-site/index.html",
+    "main.7cbc1fd9.css.map": "/my-site/static/css/main.7cbc1fd9.css.map",
+    "main.f5c71162.js.map": "/my-site/static/js/main.f5c71162.js.map",
+    "787.7da95b79.chunk.js.map": "/my-site/static/js/787.7da95b79.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7cbc1fd9.css",
+    "static/js/main.f5c71162.js"
+  ]
+}
