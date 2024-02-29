@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 $font1: 'Josefin Sans', sans-serif;
 $font2: 'Amatic SC', sans-serif;
 $font3: 'Poiret One', sans-serif;
+$font4: 'PT Serif', serif;
 $color1: #B16150;
 $color2: #5CC8D7;
 $color3: #f9e9d5;
@@ -11,32 +13,36 @@ $color3: #f9e9d5;
   margin: 0;
   padding: 0;
   scroll-behavior: auto;
+  
 }
 
 
 .Projects{
-    width: 100%;
+    width: 100vw;
     background: $color3;
     position: relative;
     padding-bottom: 5%;
+    min-height: 100vh;
 }
 
 .Decks{
     width: 100%;
-    background: $color2;
+    background: $color1;
     position: relative;
     padding-bottom: 5%;
+    min-height: 100vh;
 }
 
 .Art{
     width: 100%;
-    background: $color1;
+    background: black;
     position: relative;
     padding-bottom: 5%;
+    min-height: 100vh;
 }
 
 .page-head{
-    margin-top: 5%;
+    margin-top: 1%;
     text-align: center;
     font-family: $font2;
     font-weight: bold;
@@ -54,4 +60,33 @@ $color3: #f9e9d5;
 .card-1{
     margin-right: 5%;
     padding: 1%;
+    flex: 30%;
+    max-width: 30%;
+}
+
+.card-head{
+    font-family: $font1;
+    font-size: 3vh;
+    color: $color1;
+    margin-top: 2%;
+    display: inline-block;
+    text-align: center;
+}
+
+.card-subhead{
+    font-family: $font4;
+    font-size: 1.8vh;
+    color: rgb(84, 84, 84);
+    margin-top: 2%;
+    display: block;
+    text-align: center;
+}
+
+.card-text{
+    font-family: $font4;
+    font-size: 2.2vh;
+    color: rgb(43, 43, 43);
+    margin-top: 2%;
+    display: block;
+    text-align: center;
 }

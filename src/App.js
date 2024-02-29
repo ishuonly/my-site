@@ -7,7 +7,6 @@ import About from './About';
 import Projects from './Projects';
 import Decks from './Decks';
 import Art from './Art';
-import Contact from './Contact';
 
 
 // Define the main App component
@@ -25,7 +24,6 @@ function App() {
           <Route path="projects" element={<Projects />} />
           <Route path="art" element={<Art />} />
           <Route path="decks" element={<Decks />} />
-          <Route path="contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
       {/* Footer component */}

@@ -10,7 +10,7 @@ function Home() {
         <div className="home-1">
             <Header_1/>
             <p className="name">Ikshita <br/> Agarwal</p>
-            <p className="sub-name">I like to build and tinker with stuff. I like to build and tinker with stuff.</p>
+            <p className="sub-name">I like to build and tinker with stuff</p>
         </div>
         <div className="me-img"><img src={me} alt="me" className="me" /></div>
         <div className="home-2"></div>

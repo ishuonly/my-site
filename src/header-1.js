@@ -33,20 +33,13 @@ const Header_1 = () => {
             </div>
           </button>
         </Link>
-        <Link to="/art" style={{ textDecoration: "none" }}>
+        {/* <Link to="/art" style={{ textDecoration: "none" }}>
         <button className="button-h">
             <div className="column1">
               ART
             </div>
           </button>
-        </Link>
-        <Link to="/contact" style={{ textDecoration: "none" }}>
-        <button className="button-h">
-            <div className="column1">
-              CONTACT
-            </div>
-          </button>
-        </Link>
+        </Link> */}
     </div>
   );
 };
